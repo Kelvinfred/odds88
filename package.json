@@ -1,0 +1,13 @@
+{
+  "name": "odds88-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for Odds88 API to bypass dynamic IP restrictions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "http-proxy-middleware": "^3.0.0"
+  }
+}
