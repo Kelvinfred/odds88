@@ -4,7 +4,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 // The actual Odds88 API URL
-const TARGET_URL = 'https://betchief-tradeart-api.trading.io';
+const TARGET_URL = 'https://betchief-tradeart-api.tradingstage.io';
 
 app.use('/', createProxyMiddleware({
     target: TARGET_URL,
